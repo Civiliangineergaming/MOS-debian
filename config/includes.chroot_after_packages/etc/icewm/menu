@@ -1,0 +1,5 @@
+prog "Install Debian" debian-installer debian-installer
+prog "Wyloguj" "" logout
+prog "Restartuj" "" sudo reboot
+prog "Wyłącz" "" sudo poweroff
+
