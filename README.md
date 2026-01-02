@@ -26,17 +26,18 @@ deb-src http://deb.debian.org/debian/ trixie-updates main non-free-firmware
 
 sudo apt update
 
-backport:
+testing:
 
-deb http://deb.debian.org/debian trixie-backports main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian testing main non-free non-free-firmware
 
-deb-src http://deb.debian.org/debian trixie-backports main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian testing main non-free non-free-firmware
 
 sudo apt update
 
-jak zainstalować pakiet z backport:
+unstable:
 
-sudo apt install nazwa pakietu/trixie-backports
+deb http://deb.debian.org/debian unstable main non-free non-free-firmware
 
-sudo apt install -t trixie-backports nazwa pakietu
+deb-src http://deb.debian.org/debian unstable main non-free non-free-firmware
 
+sudo apt update
